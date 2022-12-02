@@ -1,0 +1,35 @@
+{
+    "name": "cserobiul/slug",
+    "description": "Simple and Easy Laravel Unicode Supported Unique Slug Generator Package",
+    "keywords": [
+        "laravel unicode unique slug generator",
+        "laravel-unicode-unique-slug",
+        "laravel unique slug",
+        "unique slug",
+        "laravel slug"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cserobiul\\Slug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cserobiul",
+            "email": "abishar14@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cserobiul\\Slug\\SlugServiceProvider"
+            ]
+        }
+    }
+}
