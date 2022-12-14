@@ -70,19 +70,19 @@ Suppose separator is `_` underscore.
 
 ```php
 // 1st time create customer username.
-UniqueSlug::generate('customers', 'jony', 'username', '_'); 
+UniqueSlug::make('customers', 'jony', 'username', '_'); 
 // Output: jony
 
 // 2nd time create customer username.
-UniqueSlug::generate('customers', 'jony', 'username', '_');
+UniqueSlug::make('customers', 'jony', 'username', '_');
 // Output: jony_1
 
 // 3rd time create customer username.
-UniqueSlug::generate('customers', 'jony', 'username', '_');
+UniqueSlug::make('customers', 'jony', 'username', '_');
 // Output: jony_2
 
 // 4th time create customer username.
-UniqueSlug::generate('customers', 'jony', 'username', '_'); 
+UniqueSlug::make('customers', 'jony', 'username', '_'); 
 // Output: jony_3
 
 ```
